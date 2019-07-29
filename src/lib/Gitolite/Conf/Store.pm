@@ -314,7 +314,7 @@ sub store_1 {
 
 sub store_common {
     trace(3);
-    my $cc = "conf/gitolite.conf-compiled.pm";
+    my $cc = "./conf/gitolite.conf-compiled.pm";
     my $compiled_fh = _open( ">", "$cc.new" );
 
     my %patterns = ();
